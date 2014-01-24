@@ -10,4 +10,4 @@ if [[ "$1" == "" ]] || [[ "$2" == "" ]] || [[ "$3" == "" ]]; then
     exit;
 fi
 
-java -jar target/SnowflakeClient-1.0-SNAPSHOT-jar-with-dependencies.jar $1 $2 $3
+java -jar target/snowflake-client-1.0-SNAPSHOT-jar-with-dependencies.jar $1 $2 $3
