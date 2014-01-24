@@ -6,7 +6,7 @@
 #
 
 if [[ "$1" == "" ]] || [[ "$2" == "" ]] || [[ "$3" == "" ]]; then
-    echo "--usage: host_address port_no no_of_ids";
+    echo "--usage: host_address port_no no_of_ids i.e., ./run-client.sh localhost 30405 10";
     exit;
 fi
 
